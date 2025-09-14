@@ -254,35 +254,35 @@
         <section id="contact-us">
             
             <h2>Contact Us <span id="required">(*required)</span></h2>
-            <form action="#" method="post" class="form-control">
+            <form action="#" method="post">
                 <div>
                     <label for="first-name">First Name<span class="required">*</span></label>
-                    <input id="first-name" name="first-name" type="text" autocomplete="given-name" required>
+                    <input id="first-name" name="first-name" type="text" autocomplete="given-name" class="form-control" required>
                 </div>
                 <div>
                     <label for="last-name">Last Name<span class="required">*</span></label>
-                    <input id="last-name" name="last-name" type="text" autocomplete="family-name" required>
+                    <input id="last-name" name="last-name" type="text" autocomplete="family-name" class="form-control" required>
                 </div>
                 <div>
                     <label for="email">Email<span class="required">*</span></label>
-                    <input id="email" name="email" type="email" autocomplete="email" required>
+                    <input id="email" name="email" type="email" autocomplete="email" class="form-control" required>
                 </div>
                 <div>
                     <label for="phone">Phone<span class="required">*</span></label>
-                    <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+                    <input id="phone" name="phone" type="tel" autocomplete="tel" class="form-control" required>
                 </div>
                 <fieldset id="preferred-contact">
                 <legend>Preferred Contact Method<span class="required">*</span></legend>
                     <div> 
-                        <input type="radio" id="contact-email" name="preferred-contact" value="email" required>
+                        <input type="radio" id="contact-email" name="preferred-contact" value="email" class="form-control" required>
                         <label for="contact-email">Email</label>
                     </div>
                     <div>
-                        <input type="radio" id="contact-text" name="preferred-contact" value="text">
+                        <input type="radio" id="contact-text" name="preferred-contact" value="text" class="form-control">
                         <label for="contact-text">Text</label>
                     </div>
                     <div>
-                        <input type="radio" id="contact-phone" name="preferred-contact" value="phone">
+                        <input type="radio" id="contact-phone" name="preferred-contact" value="phone" class="form-control">
                         <label for="contact-phone">Phone</label>
                     </div>
                 </fieldset>
@@ -313,7 +313,7 @@
                     </select>
                 </fieldset>
                 <div>
-	            <input type="submit" name="submit" value="submit" id="submit">
+	            <input type="submit" name="submit" value="submit" id="submit" class="form-control">
 	            </div>
             </form>
         </section>
