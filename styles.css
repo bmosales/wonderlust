@@ -511,13 +511,17 @@ small {
   background: #313639;
   color: #fff;
   font-weight: 700;
-  left: 100%;
-  padding: 4px;
+  left: -1000%;
   position: absolute;
-  transform: translateY(-100%);
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
   transition: transform 0.3s;
 }
 
 .skip-link:focus {
-  transform: translateY(0%);
+  position: static;
+  width: auto;
+  height: auto;
 }
