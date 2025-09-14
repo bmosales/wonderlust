@@ -44,13 +44,13 @@
                     -->
                     <figure>
                     <picture>
-                        <source media="(min-width:404px)" srcset="images/majorca-beach-square-s.jpg">
-                        <source media="(max-width:920px)" srcset="images/majorca-beach-vertical-m.jpg">
                         <source media="(max-width:1280px)" srcset="images/majorca-beach-horizontal-l.jpg">
-                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca Beach">
+                        <source media="(max-width:920px)" srcset="images/majorca-beach-vertical-m.jpg">
+                        <source media="(min-width:404px)" srcset="images/majorca-beach-square-s.jpg">
+                        <img src="images/majorca-beach-horizontal-l.jpg" alt="Majorca Beach">
                     </picture>
+                    <figcaption><small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></figcaption>
                     </figure>
-                    <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
                 </div>
             </section>
             <section id="plan-your-trip">
@@ -103,14 +103,12 @@
                         images/miranda-blake-M.png 920w
                         images/miranda-blake-L.png 1280w
                     -->
-                    <figure>
                     <picture>
-                        <source media="(min-width:404px)" srcset="images/miranda-blake-S.png">
-                        <source media="(max-width:920px)" srcset="images/miranda-blake-M.png">
                         <source media="(max-width:1280px)" srcset="images/miranda-blake-L.png">
-                        <img src="images/miranda-blake-S.png" alt="Miranda Blake">
+                        <source media="(max-width:920px)" srcset="images/miranda-blake-M.png">
+                        <source media="(min-width:404px)" srcset="images/miranda-blake-S.png">
+                        <img src="images/miranda-blake-L.png" alt="Miranda Blake">
                     </picture>
-                    </figure>
                         <div>
                         <p>Miranda Blake</p>
                         <dl>
@@ -127,14 +125,12 @@
                         images/max-winter-M.png 920w
                         images/max-winter-L.png 1280w
                     -->
-                    <figure>
                     <picture>
-                        <source media="(min-width:404px)" srcset="images/max-winter-S.png">
-                        <source media="(max-width:920px)" srcset="images/max-winter-M.png">
                         <source media="(max-width:1280px)" srcset="images/max-winter-L.png">
-                        <img src="images/max-winter-S.png" alt="Max Winter">
+                        <source media="(max-width:920px)" srcset="images/max-winter-M.png">
+                        <source media="(min-width:404px)" srcset="images/max-winter-S.png">
+                        <img src="images/max-winter-L.png" alt="Max Winter">
                     </picture>
-                    </figure>
                         <div>
                         <p>Max Winter</p>
                         <dl>
@@ -151,14 +147,12 @@
                         images/ines-villegoes-M.png 920w
                         images/ines-villegoes-L.png 1280w 
                     -->
-                    <figure>
                     <picture>
-                        <source media="(min-width:404px)" srcset="images/ines-villegoes-S.png">
-                        <source media="(max-width:920px)" srcset="images/ines-villegoes-M.png">
                         <source media="(max-width:1280px)" srcset="images/ines-villegoes-L.png">
-                        <img src="images/ines-villegoes-S.png" alt="Inés Villegoes">
+                        <source media="(max-width:920px)" srcset="images/ines-villegoes-M.png">
+                        <source media="(min-width:404px)" srcset="images/ines-villegoes-S.png">
+                        <img src="images/ines-villegoes-L.png" alt="Inés Villegoes">
                     </picture>
-                    </figure>
                     <div>
                         <p>Inés Villegoes</p>
                         <dl>
@@ -170,19 +164,17 @@
                 </section>
                 <section>
                     <!--Responsive Image for resolution switching
-                        images/carmen-lorenzo-L.png
+                        
                         images/carmen-lorenzo-S.png 404w
                         images/carmen-lorenzo-M.png 920w
                         images/carmen-lorenzo-L.png 1280w
                     -->
-                    <figure>
                     <picture>
-                        <source media="(min-width:404px)" srcset="images/carmen-lorenzo-S.png">
-                        <source media="(max-width:920px)" srcset="images/carmen-lorenzo-M.png">
                         <source media="(max-width:1280px)" srcset="images/carmen-lorenzo-L.png">
-                        <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo">
+                        <source media="(max-width:920px)" srcset="images/carmen-lorenzo-M.png">
+                        <source media="(min-width:404px)" srcset="images/carmen-lorenzo-S.png">
+                        <img src="images/carmen-lorenzo-L.png" alt="Carmen Lorenzo">
                     </picture>
-                    </figure>    
                     <div>
                         <p>Carmen Lorenzo</p>
                         <dl>
@@ -256,37 +248,37 @@
     <footer>
         <section id="contact-us">
             <form action="#" method="post">
-            <h4>Contact Us <span id="required">(*required)</span></h4>
-            
+            <h2>Contact Us <span id="required">(*required)</span></h2>
+
                 <div>
-                    <label>First Name<span>*</span></label>
-                    <input>
+                    <label for="first-name">First Name<span class="required">*</span></label>
+                    <input id="first-name" type="text" autocomplete="name" required>
                 </div>
                 <div>
-                    <label>Last Name<span>*</span></label>
-                    <input>
+                    <label for="last-name">Last Name<span class="required">*</span></label>
+                    <input id="last-name" type="text" autocomplete="name" required>
                 </div>
                 <div>
-                    <label>Email<span>*</span></label>
-                    <input>
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input id="email" type="email" autocomplete="email" required>
                 </div>
                 <div>
-                    <label>Phone<span>*</span></label>
-                    <input>
+                    <label for="phone">Phone<span class="required">*</span></label>
+                    <input id="phone" type="tel" autocomplete="tel" required>
                 </div>
                 <fieldset id="preferred-contact">
-                <legend>Preferred Contact Method<span>*</span></legend>
+                <legend>Preferred Contact Method<span class="required">*</span></legend>
                     <div> 
-                        <input>
-                        <label>Email</label>
+                        <input type="radio" id="contact-email" name="preferred-contact" value="email" required>
+                        <label for="contact-email">Email</label>
                     </div>
                     <div>
-                        <input>
-                        <label>Text</label>
+                        <input type="radio" id="contact-text" name="preferred-contact" value="text">
+                        <label for="contact-text">Text</label>
                     </div>
                     <div>
-                        <input>
-                        <label>Phone</label>
+                        <input type="radio" id="contact-phone" name="preferred-contact" value="phone">
+                        <label for="contact-phone">Phone</label>
                     </div>
                 </fieldset>
                 <fieldset id="destination">
@@ -316,6 +308,9 @@
                     </select>
                 </fieldset>
                 <input>
+                <div>
+	            <input type="submit" name="submit" value="submit">
+	            </div>
             </form>
         </section>
         <section id="legal">
