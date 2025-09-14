@@ -508,20 +508,17 @@ small {
     }
 }
 .skip-link {
-  background: #313639;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   font-weight: 700;
-  left: -1000%;
+  left: 50%;
   position: absolute;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  top: 0;
+  transform: translate(-50%, -200%);
   transition: transform 0.3s;
+  padding: 0.5rem 1rem;
 }
 
 .skip-link:focus {
-  position: static;
-  width: auto;
-  height: auto;
+  transform: translate(-50%, 0);
 }
