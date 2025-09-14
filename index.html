@@ -107,13 +107,15 @@
                         images/miranda-blake-M.png 920w
                         images/miranda-blake-L.png 1280w
                     -->
-                    <picture>
-                        <source media="(max-width:1280px)" srcset="images/miranda-blake-L.png">
-                        <source media="(max-width:920px)" srcset="images/miranda-blake-M.png">
-                        <source media="(min-width:404px)" srcset="images/miranda-blake-S.png">
-                        <img src="images/miranda-blake-L.png" alt="Miranda Blake">
-                    </picture>
-                        <div>
+                    <img alt="Miranda Blake" id="testimonials"
+                     srcset="
+                        images/miranda-blake-L.png 404w,
+                        images/miranda-blake-M.png 920w,
+                        images/miranda-blake-S.png 1280w,
+                        "
+                        sizes="1280w"
+                        >
+                        <div id="testimonials">
                         <p>Miranda Blake</p>
                         <dl>
                             <dt>Traveling From:</dt>
@@ -312,7 +314,7 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <div>
+                <div id="submit">
 	            <input type="submit" name="submit" value="submit">
 	            </div>
             </form>
