@@ -504,7 +504,7 @@ small {
     }
     #submit {
         grid-column: 2/3;
-        grid-row: auto;
+        grid-row: 5/6;
     }
 }
 .skip-link {
